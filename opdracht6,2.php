@@ -10,7 +10,7 @@
         }
 
         if(isset($_COOKIE['teller'])) {
-            echo "In totaal heb je deze pagina al: ". $_COOKIE['teller']. " keer bekenen.";
+            echo "In totaal heb je deze pagina al: ". $COOKIE['teller']. " keer bekenen.";
         }
     ?>
     <meta charset="UTF-8">
